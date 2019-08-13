@@ -5,10 +5,12 @@ spring:
     password: 960829
 #    driver-class-name: com.mysql.cj.jdbc.Driver
 
-# ¿ªÆôÍÕ·åÃüÃûÆ¥Åä¹æÔò
+#  å¼€å¯é©¼å³°åŒ¹é…å‘½åè§„åˆ™
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
 logging:
   level:
     com.james.springbootcache.mapper: debug
+
+# debug: true

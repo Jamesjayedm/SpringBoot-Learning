@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-data" />
+        <module name="springboot-crud" />
+        <module name="springboot-cache" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-cache" target="1.8" />
+      <module name="springboot-crud" target="1.8" />
+      <module name="springboot-data" target="1.8" />
+      <module name="springbootcrud" target="1.5" />
+      <module name="springbootdata" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-cache" options="-parameters" />
+      <module name="springboot-crud" options="-parameters" />
+      <module name="springboot-data" options="-parameters" />
+    </option>
+  </component>
+</project>

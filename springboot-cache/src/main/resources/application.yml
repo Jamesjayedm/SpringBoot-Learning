@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cache?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: 960829
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# 开启驼峰命名匹配规则
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    com.james.springbootcache.mapper: debug

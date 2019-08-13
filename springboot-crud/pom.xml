@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.james</groupId>
-    <artifactId>springboot-learning</artifactId>
+    <artifactId>springboot-crud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-learning</name>
+    <name>springboot-crud</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

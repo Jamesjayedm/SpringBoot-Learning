@@ -1,11 +1,20 @@
 package com.james.springbootcache.bean;
 
-public class Employee {
-	
+import com.alibaba.fastjson.annotation.JSONField;
+
+import java.io.Serializable;
+
+public class Employee implements Serializable {
+
+	@JSONField(ordinal = 1)
 	private Integer id;
+	@JSONField(ordinal = 2)
 	private String lastName;
+	@JSONField(ordinal = 3)
 	private String email;
-	private Integer gender; //性别 1男  0女
+	@JSONField(ordinal = 4)
+	private Integer gender;
+	@JSONField(ordinal = 5)//性别 1男  0女
 	private Integer dId;
 	
 	

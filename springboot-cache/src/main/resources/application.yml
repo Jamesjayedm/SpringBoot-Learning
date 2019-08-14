@@ -5,6 +5,9 @@ spring:
     password: 960829
 #    driver-class-name: com.mysql.cj.jdbc.Driver
 
+  redis:
+    host: 127.0.0.1
+
 #  开启驼峰匹配命名规则
 mybatis:
   configuration:

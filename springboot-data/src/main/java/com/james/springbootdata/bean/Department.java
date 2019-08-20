@@ -20,4 +20,5 @@ public class Department {
     public String getDepartmentName() {
         return departmentName;
     }
+
 }

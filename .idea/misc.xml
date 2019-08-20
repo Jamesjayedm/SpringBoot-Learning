@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/springboot-crud/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-cache/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-data/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-amqp/pom.xml" />
       </list>
     </option>
   </component>
